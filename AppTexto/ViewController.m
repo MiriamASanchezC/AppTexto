@@ -19,4 +19,15 @@
 }
 
 
+- (IBAction)changeSize:(id)sender {
+}
+
+- (IBAction)addShadow:(id)sender {
+}
+
+- (IBAction)changeFont:(id)sender {
+}
+
+- (IBAction)cambiarColor:(id)sender {
+}
 @end
