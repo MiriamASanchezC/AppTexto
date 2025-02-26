@@ -10,10 +10,12 @@
 @interface ViewController : UIViewController
 @property (weak, nonatomic) IBOutlet UILabel *label;
 @property (weak, nonatomic) IBOutlet UITextField *mensaje;
-- (IBAction)cambiarColor:(id)sender;
+
 - (IBAction)changeFont:(id)sender;
 - (IBAction)addShadow:(id)sender;
 - (IBAction)changeSize:(id)sender;
+- (IBAction)changeColor:(UIButton *)sender;
+
 
 
 @end
